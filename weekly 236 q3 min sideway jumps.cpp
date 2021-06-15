@@ -10,7 +10,7 @@ public:
                 auto x=find(o.begin()+i,o.end(),lane1);
                 auto y=find(o.begin()+i,o.end(),lane2);
                 
-                if(x==o.end() || x==o.end()){
+                if(x==o.end() || y==o.end()){
                     side++;
                     break;
                 }
